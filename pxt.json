@@ -1,5 +1,5 @@
 {
-    "name": "pxt-test",
+    "name": "pxt-missie1",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -9,7 +9,10 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "no_exercise.md",
+        "custom_functions.ts",
+        "ex2.md"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +25,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

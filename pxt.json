@@ -7,12 +7,12 @@
         "builder": "*"
     },
     "files": [
-        "README.md",
+        "t_ex1.md",
         "main.blocks",
         "main.ts",
-        "no_exercise.md",
+        "t_no_exercise.md",
         "custom_functions.ts",
-        "ex2.md"
+        "t_ex2.md"
     ],
     "testFiles": [
         "test.ts"

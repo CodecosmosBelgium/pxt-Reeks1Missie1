@@ -1,4 +1,4 @@
-## Missie 1
+# Missie 1
 
 ```blocks
 player.onChat("oef6", function () {
@@ -33,7 +33,7 @@ player.onChat("oef6", function () {
     agent.move(FORWARD, 2)
     agent.turn(LEFT_TURN)
     agent.move(FORWARD, 6)
-    CodeCosmos.init()
+    CodeCosmos.startingPosition()
 })
 ```
 
@@ -43,6 +43,6 @@ player.onChat("start", function() {
 })
 ```
 
-### Agent Testen
+## Agent Testen
 
 Gebruik het leerplatform om de oefeningen op te lossen

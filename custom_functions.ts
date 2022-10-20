@@ -1,8 +1,8 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
     //% block
-    //% block.loc.nl="zetKlaar"
-    export function init() {
+    //% block.loc.nl_be="zetKlaar"
+    export function startingPosition() {
         agent.teleport(world(87, 72, -28), EAST);
     }
 
@@ -53,7 +53,7 @@ namespace CodeCosmos {
     //% block
     //% block.loc.nl="oplossingLevel4"
     export function solutionLevel4() {
-        CodeCosmos.init();
+        CodeCosmos.startingPosition();
         agent.move(FORWARD, 6)
         agent.turn(LEFT_TURN)
         agent.move(FORWARD, 3)

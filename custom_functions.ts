@@ -34,7 +34,7 @@ namespace CodeCosmos {
     }
 
     //% block
-    //% block.loc.nl="bouwpEetzaal"
+    //% block.loc.nl="bouwEetzaal"
     export function buildDiningRoom() {
         player.execute(
             "function exercises/parts/dining_room"

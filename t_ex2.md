@@ -1,5 +1,6 @@
-# Missie 1
 ### @hideIteration true
+### @flyoutOnly true
+# Missie 1
 ```block
 player.onChat("run", function () {
     CodeCosmos.startBuild()

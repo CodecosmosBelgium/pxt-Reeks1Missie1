@@ -1,5 +1,5 @@
 # Missie 1
-
+### @hideIteration true
 ```block
 player.onChat("run", function () {
     CodeCosmos.startBuild()

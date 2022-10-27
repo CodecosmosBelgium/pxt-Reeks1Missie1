@@ -1,7 +1,18 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
+    //% block="unlockWorld $code"
+    //% block.loc.nl="ontgrendelWereld $code"
+    export function unlockWorld(code:string) {
+        if(code === "code") {
+            player.execute("execute @a[tag=!unlocked] ~ ~ ~ say Unlocked!")
+            player.execute("execute @a[tag=!unlocked] ~ ~ ~ tag @a add unlocked")
+        } else {
+            player.execute("tag @a remove unlocked");
+        }
+    }
+
     //% block
-    //% block.loc.nl_be="zetKlaar"
+    //% block.loc.nl="zetKlaar"
     export function startingPosition() {
         agent.teleport(world(87, 72, -28), EAST);
     }

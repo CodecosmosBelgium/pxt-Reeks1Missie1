@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="+*b-p`oYLS{y]pF8@AW!" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="VQfDiE8uCwfmZb$,kF*e" x="0" y="0"><statement name="HANDLER"><block type="CodeCosmos_unlockWorld" id="C]Mdp~/2rA@[WE*JSWbW"><value name="code"><shadow type="text" id="69=.$o|YxmCXM-q90#IY"><field name="TEXT"></field></shadow></value></block></statement></block></xml>

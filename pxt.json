@@ -13,7 +13,8 @@
         "t_no_exercise.md",
         "custom_functions.ts",
         "t_ex2.md",
-        "t_ex1_56.md"
+        "t_ex1_56.md",
+        "t_unlock_world.md"
     ],
     "testFiles": [
         "test.ts"

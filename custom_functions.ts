@@ -3,7 +3,8 @@ namespace CodeCosmos {
     //% block="unlockWorld $code"
     //% block.loc.nl="ontgrendelWereld $code"
     export function unlockWorld(code:string) {
-        if(code === "code") {
+        if(code === "code123") {
+            player.execute("execute @a[tag=!unlocked] ~ ~ ~ dialogue change @e[tag=claire1] claire1")
             player.execute("execute @a[tag=!unlocked] ~ ~ ~ say Unlocked!")
             player.execute("execute @a[tag=!unlocked] ~ ~ ~ tag @a add unlocked")
         } else {

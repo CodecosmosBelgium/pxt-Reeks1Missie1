@@ -1,17 +1,5 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-    //% block="unlockWorld $code"
-    //% block.loc.nl="ontgrendelWereld $code"
-    export function unlockWorld(code:string) {
-        if(code === "code123") {
-            player.execute("execute @a[tag=!unlocked] ~ ~ ~ dialogue change @e[tag=claire1] claire1")
-            player.execute("execute @a[tag=!unlocked] ~ ~ ~ say Unlocked!")
-            player.execute("execute @a[tag=!unlocked] ~ ~ ~ tag @a add unlocked")
-        } else {
-            player.execute("tag @a remove unlocked");
-        }
-    }
-
     //% block
     //% block.loc.nl="zetKlaar"
     export function startingPosition() {

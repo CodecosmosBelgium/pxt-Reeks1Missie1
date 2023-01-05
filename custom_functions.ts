@@ -15,7 +15,7 @@ namespace CodeCosmos {
     //% block
     //% block.loc.nl="zetKlaar"
     export function startingPosition() {
-        agent.teleport(world(87, 73, -28), EAST);
+        agent.teleport(world(87, 72, -28), EAST);
     }
 
     //% block

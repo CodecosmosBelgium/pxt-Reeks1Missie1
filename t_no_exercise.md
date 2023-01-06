@@ -1,5 +1,11 @@
 ### @hideIteration true
+### @flyoutOnly true
 # Missie 1
-## Geen oefening
+```blocks
+```
 
-Er is geen oefening, ga verder tot aan de volgende oefening.
+```template
+```
+
+## Geen oefening
+Er is nog geen oefening.

@@ -1,5 +1,9 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
+let order = 0;
+
+
+
     //% block
     //% block.loc.nl="zetKlaar"
     export function startingPosition() {
@@ -12,7 +16,9 @@ namespace CodeCosmos {
         player.execute(
             "function exercises/parts/top"
         )
+        order++;
         loops.pause(4000);
+        
     }
 
     //% block
@@ -21,6 +27,7 @@ namespace CodeCosmos {
         player.execute(
             "function exercises/parts/storage"
         )
+        order++;
         loops.pause(4000);
     }
 
@@ -30,6 +37,7 @@ namespace CodeCosmos {
         player.execute(
             "function exercises/parts/living_room"
         )
+        order++;
         loops.pause(4000);
     }
 
@@ -39,29 +47,16 @@ namespace CodeCosmos {
         player.execute(
             "function exercises/parts/dining_room"
         )
+        order++;
         loops.pause(4000);
     }
 
     //% block
     //% block.loc.nl="bouwenStarten"
     export function startBuild() {
+        order = 0
         player.execute(
             "function exercises/exercise2/reset"
         )
-    }
-
-    //% block
-    //% block.loc.nl="oplossingLevel4"
-    export function solutionLevel4() {
-        CodeCosmos.startingPosition();
-        agent.move(FORWARD, 6)
-        agent.turn(LEFT_TURN)
-        agent.move(FORWARD, 3)
-        agent.turn(LEFT_TURN)
-        agent.move(FORWARD, 5)
-        agent.turn(RIGHT_TURN)
-        agent.move(FORWARD, 2)
-        agent.turn(RIGHT_TURN)
-        agent.move(FORWARD, 10)
     }
 }

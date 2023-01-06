@@ -39,7 +39,9 @@ player.onChat("oef6", function () {
 ```
 
 ```template
+player.onChat("jump", function () {
 CodeCosmos.startingPosition()
+})
 ```
 
 ## Agent Testen

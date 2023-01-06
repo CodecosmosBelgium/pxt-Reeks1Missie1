@@ -41,7 +41,7 @@ namespace CodeCosmos {
         }
     }
 
-    //% block="bouwpLeefruimte"
+    //% block="bouwLeefruimte"
     export function buildLivingRoom() {
         if (lastPlaced === 1) {
             lastPlaced++;

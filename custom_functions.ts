@@ -1,8 +1,7 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-let order = 0;
-
-
+    let order = 0;
+    let lastPlaced = 0;
 
     //% block
     //% block.loc.nl="zetKlaar"
@@ -13,50 +12,84 @@ let order = 0;
     //% block
     //% block.loc.nl="bouwTop"
     export function buildTop() {
-        player.execute(
-            "function exercises/parts/top"
-        )
-        order++;
-        loops.pause(4000);
-        
+        if (lastPlaced === 3) {
+            lastPlaced++;
+            player.execute(
+                "function exercises/parts/top"
+            )
+            order++;
+            loops.pause(4000);
+            player.execute(
+                'titleraw @a title {"rawtext":[{"text":"title.subtitle.good.job","color":"green"}]}'
+            )
+        } else {
+            player.execute(
+                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+            )
+        }
+
     }
 
     //% block
     //% block.loc.nl="bouwOpslagplaats"
     export function buildStorage() {
-        player.execute(
-            "function exercises/parts/storage"
-        )
-        order++;
-        loops.pause(4000);
+        if (lastPlaced === 0) {
+            lastPlaced++;
+            player.execute(
+                "function exercises/parts/storage"
+            )
+            order++;
+            loops.pause(4000);
+        } else {
+            player.execute(
+                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+            )
+        }
     }
 
     //% block
     //% block.loc.nl="bouwpLeefruimte"
     export function buildLivingRoom() {
-        player.execute(
-            "function exercises/parts/living_room"
-        )
-        order++;
-        loops.pause(4000);
+        if (lastPlaced === 1) {
+            lastPlaced++;
+            player.execute(
+                "function exercises/parts/living_room"
+            )
+            order++;
+            loops.pause(4000);
+        } else {
+            player.execute(
+                'titleraw @a title {"rawtext":[{"text":"Ntitle.subtitle.not.correct","color":"red"}]}'
+            )
+        }
     }
 
     //% block
     //% block.loc.nl="bouwEetzaal"
     export function buildDiningRoom() {
-        player.execute(
-            "function exercises/parts/dining_room"
-        )
-        order++;
-        loops.pause(4000);
+        if (lastPlaced === 2) {
+            lastPlaced++;
+            player.execute(
+                "function exercises/parts/dining_room"
+            )
+            order++;
+            loops.pause(4000);
+        } else {
+            player.execute(
+                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+            )
+        }
     }
 
     //% block
     //% block.loc.nl="bouwenStarten"
     export function startBuild() {
         order = 0
+        lastPlaced = 0
         player.execute(
             "function exercises/exercise2/reset"
         )
     }
+
+
 }

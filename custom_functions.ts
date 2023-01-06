@@ -3,14 +3,12 @@ namespace CodeCosmos {
     let order = 0;
     let lastPlaced = 0;
 
-    //% block
-    //% block.loc.nl="zetKlaar"
+    //% block="zetKlaar"
     export function startingPosition() {
         agent.teleport(world(87, 72, -28), EAST);
     }
 
-    //% block
-    //% block.loc.nl="bouwTop"
+    //% block="bouwTop"
     export function buildTop() {
         if (lastPlaced === 3) {
             lastPlaced++;
@@ -27,8 +25,7 @@ namespace CodeCosmos {
 
     }
 
-    //% block
-    //% block.loc.nl="bouwOpslagplaats"
+    //% block="bouwOpslagplaats"
     export function buildStorage() {
         if (lastPlaced === 0) {
             lastPlaced++;
@@ -44,8 +41,7 @@ namespace CodeCosmos {
         }
     }
 
-    //% block
-    //% block.loc.nl="bouwpLeefruimte"
+    //% block="bouwpLeefruimte"
     export function buildLivingRoom() {
         if (lastPlaced === 1) {
             lastPlaced++;
@@ -61,8 +57,7 @@ namespace CodeCosmos {
         }
     }
 
-    //% block
-    //% block.loc.nl="bouwEetzaal"
+    //% block="bouwEetzaal"
     export function buildDiningRoom() {
         if (lastPlaced === 2) {
             lastPlaced++;
@@ -78,8 +73,7 @@ namespace CodeCosmos {
         }
     }
 
-    //% block
-    //% block.loc.nl="bouwenStarten"
+    //% block="bouwenStarten"
     export function startBuild() {
         order = 0
         lastPlaced = 0

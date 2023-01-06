@@ -19,9 +19,6 @@ namespace CodeCosmos {
             )
             order++;
             loops.pause(4000);
-            player.execute(
-                'titleraw @a title {"rawtext":[{"text":"title.subtitle.good.job","color":"green"}]}'
-            )
         } else {
             player.execute(
                 'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
@@ -59,7 +56,7 @@ namespace CodeCosmos {
             loops.pause(4000);
         } else {
             player.execute(
-                'titleraw @a title {"rawtext":[{"text":"Ntitle.subtitle.not.correct","color":"red"}]}'
+                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
             )
         }
     }

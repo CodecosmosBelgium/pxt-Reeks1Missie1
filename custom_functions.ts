@@ -21,7 +21,7 @@ namespace CodeCosmos {
             loops.pause(4000);
         } else {
             player.execute(
-                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+                'titleraw @a title {"rawtext":[{"translate":"title.subtitle.not.correct"}]}'
             )
         }
 
@@ -39,7 +39,7 @@ namespace CodeCosmos {
             loops.pause(4000);
         } else {
             player.execute(
-                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+                'titleraw @a title {"rawtext":[{"translate":"title.subtitle.not.correct"}]}'
             )
         }
     }
@@ -56,7 +56,7 @@ namespace CodeCosmos {
             loops.pause(4000);
         } else {
             player.execute(
-                'titleraw @a title {"rawtext":[{"text":"title.subtitle.not.correct","color":"red"}]}'
+                'titleraw @a title {"rawtext":[{"translate":"title.subtitle.not.correct"}]}'
             )
         }
     }

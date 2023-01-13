@@ -2,7 +2,7 @@
 ### @flyoutOnly true
 # Missie 1
 ```block
-player.onChat("run", function () {
+player.onChat("start", function () {
     CodeCosmos.startBuild()
     CodeCosmos.buildDiningRoom()
     CodeCosmos.buildLivingRoom()

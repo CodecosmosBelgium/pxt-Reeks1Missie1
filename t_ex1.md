@@ -35,6 +35,7 @@ player.onChat("oef6", function () {
     agent.turn(LEFT_TURN)
     agent.move(FORWARD, 6)
     CodeCosmos.startingPosition()
+    CodeCosmos.goToNextLevel()
 })
 ```
 

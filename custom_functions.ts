@@ -5,7 +5,13 @@ namespace CodeCosmos {
 
     //% block="zetKlaar"
     export function startingPosition() {
+        player.execute("scoreboard players set @a woolDetected 0")
         agent.teleport(world(87, 72, -28), EAST);
+    }
+
+    //% block="ga naar volgend level"
+    export function goToNextLevel() {
+        player.execute("execute @a[scores={progress=10..,ex1_lvl=1..6,ex1_move=0,woolDetected=0}] ~ ~ ~ execute @e[type=agent] ~ ~ ~ detect ~ ~-1 ~ gold_block 1 scoreboard players set @a ex1_move 1");
     }
 
     //% block="bouwTop"

@@ -5,8 +5,8 @@ namespace CodeCosmos {
 
     //% block="zetKlaar"
     export function startingPosition() {
-        player.execute("scoreboard players set @a woolDetected 0")
         agent.teleport(world(87, 72, -28), EAST);
+        player.execute("scoreboard players set @a woolDetected 0");
     }
 
     //% block="ga naar volgend level"

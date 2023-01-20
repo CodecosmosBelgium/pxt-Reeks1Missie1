@@ -41,7 +41,7 @@ player.onChat("oef6", function () {
 
 ```template
 player.onChat("start", function () {
-CodeCosmos.startingPosition()
+
 })
 ```
 

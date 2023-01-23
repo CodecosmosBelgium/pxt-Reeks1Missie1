@@ -11,6 +11,12 @@ player.onChat("start", function () {
 })
 ```
 
+```template
+player.onChat("jump", function() {
+    
+})
+```
+
 ## Raket bouwen
 
 Volg de instructies op het leerplatform om de opdracht op te lossen.

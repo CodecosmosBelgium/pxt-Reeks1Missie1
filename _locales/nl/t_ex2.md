@@ -3,11 +3,11 @@
 # Missie 1
 ```block
 player.onChat("start", function () {
-    CodeCosmosEN.startBuild()
-    CodeCosmosEN.buildDiningRoom()
-    CodeCosmosEN.buildLivingRoom()
-    CodeCosmosEN.buildStorage()
-    CodeCosmosEN.buildTop()
+    CodeCosmos.startBuild()
+    CodeCosmos.buildDiningRoom()
+    CodeCosmos.buildLivingRoom()
+    CodeCosmos.buildStorage()
+    CodeCosmos.buildTop()
 })
 ```
 
@@ -19,4 +19,4 @@ player.onChat("jump", function() {
 
 ## Raket bouwen
 
-Use the learning platform to solve the exercise.
+Volg de instructies op het leerplatform om de opdracht op te lossen.

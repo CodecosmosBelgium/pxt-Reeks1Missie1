@@ -7,4 +7,4 @@
 ```template
 ```
 
-There is no exercise.
+Er is geen oefening, ga verder tot aan de volgende oefening.

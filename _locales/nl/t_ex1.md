@@ -34,8 +34,8 @@ player.onChat("oef6", function () {
     agent.move(FORWARD, 2)
     agent.turn(LEFT_TURN)
     agent.move(FORWARD, 6)
-    CodeCosmos.startingPosition()
-    CodeCosmos.goToNextLevel()
+    CodeCosmosEN.startingPosition()
+    CodeCosmosEN.goToNextLevel()
 })
 ```
 
@@ -45,6 +45,6 @@ player.onChat("jump", function () {
 })
 ```
 
-## Agent Testen
+## Testing the Agent
 
-Gebruik het leerplatform om de oefeningen op te lossen.
+Use the learning platform to solve the exercise.

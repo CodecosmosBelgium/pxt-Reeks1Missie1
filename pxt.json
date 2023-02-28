@@ -13,7 +13,11 @@
         "t_no_exercise.md",
         "custom_functions.ts",
         "t_ex2.md",
-        "t_ex1_56.md"
+        "t_ex1_56.md",
+        "custom_functions_EN.ts",
+        "_locales/nl/t_ex1.md",
+        "_locales/nl/t_ex1_56.md",
+        "_locales/nl/t_ex2.md"
     ],
     "testFiles": [
         "test.ts"

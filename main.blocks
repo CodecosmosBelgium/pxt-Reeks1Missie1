@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="PQf?V$bu%#ND_@1A_mJ8" x="0" y="0"></block><block type="minecraftOnChat" id="n;fw9^Iz2S`}AcuPf:C1" x="293" y="109"><mutation xmlns="http://www.w3.org/1999/xhtml" numargs="0"></mutation><value name="command"><shadow type="text" id="=EEASaw(!Sc%iwi#TF@8"><field name="TEXT">jump</field></shadow></value></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="g=Nf%(ex+e5w=F7Xvc@%" x="0" y="0"></block></xml>

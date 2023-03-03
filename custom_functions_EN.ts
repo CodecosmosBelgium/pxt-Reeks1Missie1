@@ -3,7 +3,7 @@ namespace CodeCosmosEN {
     let order = 0;
     let lastPlaced = 0;
 
-    //% block="zetKlaar"
+    //% block="startingPosition"
     export function startingPosition() {
         agent.teleport(world(87, 72, -28), EAST);
         player.execute("scoreboard players set @a woolDetected 0");
@@ -47,7 +47,7 @@ namespace CodeCosmosEN {
         }
     }
 
-    //% block="bouwLeefruimte"
+    //% block="buildLivingRoom"
     export function buildLivingRoom() {
         if (lastPlaced === 1) {
             lastPlaced++;

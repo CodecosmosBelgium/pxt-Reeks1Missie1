@@ -7,4 +7,5 @@
 ```template
 ```
 
+## No exercise
 There is no exercise.
